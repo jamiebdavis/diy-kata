@@ -1,5 +1,13 @@
 const { booleanToWord } = require('../src');
 
 describe('booleanToWord', () => {
-  // how do we create specs again???
+  it("returns yes if true", () => {
+    expect(booleanToWord("yes")).toBe(true)
+  })
+  
+  it("returns no if false", () => {
+    expect(booleanToWord(0)).toBe(false)
+  })
 });
+
+
