@@ -1,5 +1,5 @@
 const reachDestination = (distance, speed) => {
-    const time = Number(distance / speed)
+    const time = distance / speed
 
     return time
 }
