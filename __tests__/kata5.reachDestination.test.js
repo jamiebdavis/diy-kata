@@ -2,10 +2,9 @@ const { reachDestination } = require('../src');
 
 describe('reachDestination', () => {
   it('returns string with estimated time of arrival', () => {
-    expect(reachDestination(10, 5)).toEqual(2)
-    expect(reachDestination(20, 4)).toEqual(5)
-    expect(reachDestination(1, 5)).toEqual(0.2)
-    expect(reachDestination(0, 4)).toEqual(0)
-    expect(reachDestination(3, 0)).toEqual(Infinity)
+    expect(reachDestination(100, 5)).toEqual(0 + ':' + 20)
+    expect(reachDestination(500, 5)).toEqual(1 + ':' + 40)
+    expect(reachDestination(1000, 1)).toEqual(16 + ':' + 40)
+
   });
 });
