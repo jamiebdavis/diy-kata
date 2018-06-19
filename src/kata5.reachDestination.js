@@ -1,9 +1,6 @@
 const reachDestination = (distance, speed) => {
-    const time = distance / speed
-    const hours = Math.floor(time / 60)
-    const minutes = time % 60
-
-    return hours + ':' + minutes
+    let time = distance / speed;
+    return "I should be there in " + Math.round(time * 50) / 50 + " hours."
 }
 
 module.exports = reachDestination;

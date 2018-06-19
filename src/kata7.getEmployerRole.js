@@ -1,18 +1,8 @@
-const getEmployerRole = (employeeName, employees) => {
-
-  let selectedEmployee;
-
-  employees.forEach(obj => {
-
-    if (obj.name === employeeName) {
-        selectedEmployee = obj.role;
-
+const getEmployerRole = (name, employees) => {
+    for (let i = 0; i < employees.length; i++){
+      if (name === employees[i].name){
+        return employees[i].role
+      }
     }
-
-})
-
-return selectedEmployee;
-
-}
-
+  } 
 module.exports = getEmployerRole
