@@ -1,8 +1,8 @@
-// review
 const joinNames = (namesObj) => {
 
     let newString = ''
 
+    // review
     for (let i = 0; i < namesObj.length - 1; i++) {
       newString += namesObj[i].name + ", "
     }

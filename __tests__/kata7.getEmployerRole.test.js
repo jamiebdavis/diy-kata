@@ -1,4 +1,3 @@
-// review
 const { getEmployerRole } = require('../src');
 const employees = [{
   name: 'Satti',
@@ -10,6 +9,7 @@ const employees = [{
   name: 'Javid',
   role: 'Human Resources Assistant'
 }]
+// review
 
 
 
