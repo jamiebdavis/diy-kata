@@ -1,3 +1,4 @@
+// review
 const reachDestination = (distance, speed) => {
     let time = distance / speed;
     time = Math.round(time * 2) / 2
