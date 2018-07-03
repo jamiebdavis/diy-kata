@@ -11,6 +11,7 @@ const humanCatDogYears = (number) => {
     dogAge = 15;
     ageArray.push(dogAge)
   }
+  // review
   else if (number === 2){
       ageArray.push(number)
       catAge = 24;

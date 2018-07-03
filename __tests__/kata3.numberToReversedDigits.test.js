@@ -5,5 +5,6 @@ describe('numberToReversedDigits', () => {
     expect(numberToReversedDigits(12345)).toEqual([5, 4, 3, 2, 1]);
     expect(numberToReversedDigits(6789)).toEqual([9, 8, 7, 6]);
   })
+  // review
 
   });
